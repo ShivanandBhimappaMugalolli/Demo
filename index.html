@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <section id="playerDetails">
+            <h3>Section 1 Player Details</h3>
+            <p>Enter your personal and academic information.</p>
+        </section>
+        <br><br><br>
+
+        <section id="name">
+            <label for="playerName">Full Name:</label><br>
+            <input type="text" id="playerName" name="playerName"><required>
+        </section>
+        <section id="usn">
+            <label for="USN">USN:</label><br>
+            <input type="text" id="USN" name="USN"><required>
+        </section>
+         <section id="telephoneNo">
+            <label for="Telephone">Mobile Number:</label><br>
+            <input type="tel" id="Telephone" name="Telephone"><required>
+        </section>
+         <section id="email">
+            <label for="Email">Email ID:</label><br>
+            <input type="email" id="Email" name="Email"><required>
+        </section>
+         <section id="semester">
+            <label for="Semester">Semester:</label><br>
+            <input type="radio" id="Semester" name="Semester" value="3rd">3rd Sem
+            <input type="radio" id="Semester" name="Semester" value="5th">5th Sem
+            <input type="radio" id="Semester" name="Semester" value="7th">7th Sem<required>
+        </section>
+        <section>
+            <button type="submit">Submit</button>
+        </section>
+    </form>
+    
+</body>
+</html>
